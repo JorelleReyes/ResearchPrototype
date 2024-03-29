@@ -1,0 +1,48 @@
+body {
+    font-family: 'Mont', sans-serif;
+    margin-left: 340px;
+    padding: 0;
+    background-color: #fffafa;
+    background-image: url(bg_hp.png);
+    background-repeat: no-repeat;
+}
+
+.sidebar {
+    height: 100%;
+    width: 314px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding-top: 220px;
+    
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin: 10px;
+}
+
+.sidebar ul li a {
+    color: #fffafa;
+    text-decoration: none;
+    display: block;
+    padding: 50px;
+    text-align: center;
+    font-size: 50px;
+    border-radius: 20px;
+}
+
+.sidebar ul li a:hover {
+    background-color: #dd6060;
+}
+
+p {
+    text-align: center;
+    color: #d42121;
+    padding-top: 100px;
+    font-size: 60px;
+}
